@@ -8,6 +8,7 @@ const c = 1;
 abc = 123;
 
 function unusedFunc() {
+    var unused_local = 1;
     if(true)
         return false;
     return 1;
